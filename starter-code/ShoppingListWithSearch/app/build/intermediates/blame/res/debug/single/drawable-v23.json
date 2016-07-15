@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/andeski/Documents/Projects/Search-View-Lab/starter-code/ShoppingListWithSearch/app/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
+        "source": "/home/andeski/Documents/Projects/Search-View-Lab/starter-code/ShoppingListWithSearch/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-v23/abc_control_background_material.xml"
+    },
+    {
+        "merged": "/Users/generalassembly/Documents/Documents/Search-View-Lab/starter-code/ShoppingListWithSearch/app/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
+        "source": "/Users/generalassembly/Documents/Documents/Search-View-Lab/starter-code/ShoppingListWithSearch/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-v23/abc_control_background_material.xml"
+    }
+]

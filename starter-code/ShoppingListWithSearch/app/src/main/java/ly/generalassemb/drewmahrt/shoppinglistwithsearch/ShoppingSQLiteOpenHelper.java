@@ -56,5 +56,18 @@ public class ShoppingSQLiteOpenHelper extends SQLiteOpenHelper{
         this.onCreate(db);
     }
 
+    public Cursor searchAnything(String query){
+
+        SQLiteDatabase db = this.getReadableDatabase();
+
+        Cursor cursor = db.query(
+                SHOPPING_LIST_TABLE_NAME,
+                SHOPPING_COLUMNS,
+                COL_ITEM_NAME+"= LIKE %",
+                new String[]{"%"+query+"%"},
+                null,null,null);
+        return cursor;
+    }
+
 
 }
